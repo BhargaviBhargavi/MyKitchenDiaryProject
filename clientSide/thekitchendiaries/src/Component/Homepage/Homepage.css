@@ -1,0 +1,91 @@
+
+
+.imageforhome{
+    
+    width: 705px;
+    height: 600px;
+    margin: 25px 0px 0px 200px;
+
+} 
+.textpart{
+    
+    width:260px;
+    height:440px;
+    background-color: rgba(224, 219, 219, 0.418);
+    margin:85px 0px 0px 50px;
+    padding:20px;
+    line-height: 40px;
+}
+p{
+    font-size: 20px;
+       
+}
+.button{
+    width:150px;
+    padding:10px;
+    font-size: 20px;
+    background-color: rgb(255, 123, 0);
+    margin:15px 0px 0px 50px  ;
+    border: none;
+    border-radius: 5px;
+}
+
+.recipes{
+    
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.color{
+    color:rgb(84, 82, 82);
+}
+
+
+.specialRecipe{
+    width:300px;
+    height: 300px;
+    margin:0px 78px 20px 5px;
+    
+}
+.specialRecipe:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.foodName{
+    font-size: 25px;
+    line-height: 30px;
+    margin-left: 10px;
+
+}
+
+
+.searchbar{
+    width:520px;
+    height: 30px;
+    margin:105px 0px 10px 470px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    
+  
+}
+.search{
+    width:35px;
+    height: 32px;
+    margin: 110px 0px 10px -40px;
+  
+}
+.display{
+    display: flex;
+}
+.ricepe{
+    width:310px;
+    height: 370px;
+    border: 1px solid rgb(226, 224, 224);
+    margin:30px 60px 20px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
