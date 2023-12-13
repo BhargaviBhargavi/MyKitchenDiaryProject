@@ -22,14 +22,17 @@ public class RecipeServiceImpl implements RecipeService {
         return recipeRepository.findAll();
     }
     @Override
-    public Recipes getOneRecipes(Integer id){return recipeRepository.findById(id).get();
+    public Recipes getOneRecipes(Integer id){
+        return recipeRepository.findById(id).get();
 
     }
     @Override
-    public Recipes update(Recipes recipes){return recipeRepository.save(recipes);
+    public Recipes update(Recipes recipes){
+        return recipeRepository.save(recipes);
     }
     @Override
-    public String deleteRecipes(Integer id){recipeRepository.deleteById(id);
+    public String deleteRecipes(Integer id){
+        recipeRepository.deleteById(id);
         return "Recipe Details are deleted from the database";
     }
 
@@ -37,4 +40,5 @@ public class RecipeServiceImpl implements RecipeService {
     public List<Recipes> getSearch(String name) {
         return recipeRepository.getSearch(name);
     }
+
 }

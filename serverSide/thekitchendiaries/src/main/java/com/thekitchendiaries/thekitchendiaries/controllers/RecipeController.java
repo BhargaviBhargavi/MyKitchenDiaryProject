@@ -1,17 +1,16 @@
 package com.thekitchendiaries.thekitchendiaries.controllers;
 
-import com.thekitchendiaries.thekitchendiaries.model.Recipes;
-import com.thekitchendiaries.thekitchendiaries.service.RecipeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
+
+import com.thekitchendiaries.thekitchendiaries.model.Recipes;
+import com.thekitchendiaries.thekitchendiaries.service.RecipeService;
 
 import java.util.List;
 
 @RestController
 @RequestMapping("/recipes")
 public class RecipeController {
-
-
     @Autowired
     RecipeService recipeService;
 
@@ -44,3 +43,5 @@ public class RecipeController {
         return recipeService.getSearch(name);
     }
 }
+
+

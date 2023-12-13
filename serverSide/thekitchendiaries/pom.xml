@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.the-kitchen-diaries</groupId>
 	<artifactId>thekitchendiaries</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1- </version>
 	<name>thekitchendiaries</name>
 	<description>Give the information about  food recipes</description>
 	<properties>
@@ -36,7 +36,13 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-	</dependencies>
+	
+   <dependency>
+     <groupId>org.jetbrains.kotlin</groupId>
+     <artifactId>kotlin-stdlib</artifactId>
+     <version>1.3.41</version>
+   </dependency>
+ </dependencies>
 
 	<build>
 		<plugins>
