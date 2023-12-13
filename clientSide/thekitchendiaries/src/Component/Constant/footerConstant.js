@@ -17,7 +17,7 @@ export const footerList=[
         type:"Recipe History"
     },
     {
-        type:"Order Food"
+        type:"Seasonal Food"
     },
     {
         type:"About Us"

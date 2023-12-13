@@ -12,7 +12,7 @@
     width:260px;
     height:440px;
     background-color: rgba(224, 219, 219, 0.418);
-    margin:85px 0px 0px 50px;
+    margin:85px 0px 0px 70px;
     padding:20px;
     line-height: 40px;
 }
@@ -86,6 +86,12 @@ h2{
     width:310px;
     height: 370px;
     border: 1px solid rgb(226, 224, 224);
-    margin:30px 60px 20px 0px;
+    margin:30px 70px 20px 0px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.searchImg{
+    width:35px;
+    height: 32px;
+    margin: 110px 0px 10px -80px;
+  
 }

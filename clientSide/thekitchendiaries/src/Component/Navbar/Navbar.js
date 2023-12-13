@@ -16,9 +16,9 @@ function Navbar(){
             
                                 <div><img src="Resources/logo.png" alt="" className="image"/></div>
                                     
-                                <div className="dropbtn">Home</div>
+                                <div className="dropbtn"><Link to="/home" className="link">Home</Link></div>
                                 <div class="dropdown">
-                                    <button class="dropbtn" ><Link to="/home" className="link">Recipes</Link></button>
+                                    <button class="dropbtn" ><Link to="/recipe" className="link">Recipes</Link></button>
                                     <div  class="dropdownContent">
                                     {
                                         dropdown.map((item,i)=>(
@@ -51,7 +51,7 @@ function Navbar(){
                                     
                                 </div>
                                 <div class="dropdown">
-                                    <button class="dropbtn">Order Food</button>
+                                    <button class="dropbtn">Seasonal Food</button>
                                 
                                 </div>
                                 <div className="topics">About Us</div>

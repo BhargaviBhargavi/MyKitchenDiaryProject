@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Homepage from "../Homepage/Index";
 import Footer from "../Footer/Footer";
+import Home from "../Homepage/Home";
 
 function Routing() {
   return (
@@ -13,9 +14,11 @@ function Routing() {
     
       <div>
         <Navbar/>
+        <Home/>
         <Routes>
-         
-          <Route path="/home" element={<Homepage />} />
+          
+          <Route path="/recipe" element={<Homepage />} />
+          
          
         </Routes>
         <Footer/>
